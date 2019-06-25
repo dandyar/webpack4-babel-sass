@@ -1,9 +1,11 @@
+body{ background: #000000; }
 #container {
     display: flex;
     justify-content: space-around;
   
     #scss {
       color: red;
+      user-select: none;
   
       &:hover {
         font-size: 24px;
